@@ -1,0 +1,98 @@
+{
+  "intents": [
+    {
+      "tag": "saudacao",
+      "patterns": [
+        "oi",
+        "ola",
+        "tudo bem?",
+        "tem alguem ai?",
+        "oie",
+        "bom dia"
+      ],
+      "responses": [
+        "Ola :)",
+        "Oie, meu nome e rojericao e obrigada pela visita",
+        "Ola, me chamo rojericao, como posso te ajudar?",
+        "Oi, rojericao aqui, como posso ajudar?"
+      ]
+    },
+    {
+      "tag": "despedida",
+      "patterns": ["Tchauzinho",
+        "Ate mais",
+        "Falou amigx"
+      ],
+      "responses": [
+        "Ate mais!! Obrigada pela visita!",
+        "Um bom dia!",
+        "Ate mais! Volte sempre."
+      ]
+    },
+    {
+      "tag": "agradecimento",
+      "patterns": ["obrigada", "muito obrigada", "vlw", "obrigadin"],
+      "responses": ["Imagina, fico feliz em ajudar", "Quando precisar!", "O prazer e meu :)"]
+    },
+    {
+      "tag": "publicacao",
+      "patterns": [
+        "publicacao",
+        "como publicar na plataforma?",
+        "que tipo de publicacao posso adicionar na plataforma?",
+        "posso publicar quantas vezes por dia?",
+        "existe alguma diferenca de pontuacao para cada tipo publicacao?"
+      ],
+      "responses": [
+        "Tudo sobre publicacao: \nClique no botão + para adicionar uma publicacao. \nVoce pode adicionar seus projetos pessoais ESG ou alguma colaboracão ao projeto Hortalize. \nPode publicar ate 3 vezes por dia. \nTodas as publicacoes valem o mesmo ponto, porem precisam cumprir as normas ESG ou estar dentro do projeto hortalize Leia mais sobre as regras de pontuacao."
+      ]
+    },
+    {
+      "tag": "premiacao",
+      "patterns": [
+        "premiacao",
+        "quando acontece a premiacao?",
+        "como participar da premiacao?",
+        "como ganhar a premiacao?",
+        "ranking da premiacao?",
+        "Como ver o ranking da premiacao?"
+      ],
+      "responses": [
+        "A premiacao acontece no ultimo dia do ano. \nPara participar, e so comecar a publicar na plataforma e cumprir as regras no link a seguir Leia mais sobre as regras de pontuacao. \nPara vencer, voce deve ficar entre os 3 primeiros colocados. Voce consegue ver o ranking na home da plataforma."
+      ]
+    },
+    {
+      "tag": "pontuacao",
+      "patterns": [
+        "como faco para pontuar?",
+        "como faco para ganhar pontos?",
+        "como ganhar pontos?",
+        "o que fazer para ganhar pontos",
+        "como ver pontos?",
+        "como ver as pontuacoes?",
+        "como aumentar pontuacoes?",
+        "onde ver pontuacoes?"
+      ],
+      "responses": [
+        "Para ganhar pontos, basta publicar as suas atividades na plataforma, cumprindo as regras de publicacao. Na pagina inicial, voce consegue ver os seus pontos"
+      ]
+    },
+    {
+      "tag": "erros",
+      "patterns": [
+        "não consigo enviar minhas publicacoes",
+        "não consigo enviar publicacoes",
+        "meus dados não estão carregando",
+        "meus dados não carregam",
+        "não consigo",
+        "erro",
+        "erros",
+        "carrega",
+        "ta dando erro"
+      ],
+      "responses": [
+        "Verifique se o seu dispositivo esta conectado a uma rede WiFi, e se a sua publicacao esta de acordo com as regras de dimensionamento, caso esteja, aguarde uns minutos e tente novamente."
+      ]
+    }
+  ]
+}
